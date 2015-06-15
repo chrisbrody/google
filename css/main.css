@@ -1,14 +1,16 @@
-* {
-	font-size: 12px;
+html,
+body {
+	height:100%;
 }
 body {
 	background: none repeat scroll 0 0 #fff;
     color: #222;
-    margin:0;
+}
+* {
+	font-size: 12px;
 }
 a {
 	color:#222;
-	text-decoration: none;
 }
 a:hover {
 	color: #222;
@@ -43,9 +45,6 @@ span#share {
 	background-color: #f2f2f2;
 	padding:7px 15px;
 	cursor: default;
-	position: relative;
-    top: -3px;
-}
 }
 span#share:hover {
 	background-color: #E1E1E1;
@@ -53,36 +52,36 @@ span#share:hover {
 img.profile_img {
 	border-radius: 25px;
 	height: 32px;
+    margin: -5px;
     width: 32px;
-    position: relative;
-    top: 9px;
 }
-div#searchBox {
+
+
+
+div#search {
 	position: absolute;
-	margin-top:75px;
+	margin-top:50px;
 	width:100%;
 }
-div#searchBox img {
+div#search img {
 	padding:142px 0 24px 0;
 	display: block;
 	margin:0 auto;
 }
-#searchBox input {
+input.search_buttons {
 	width:40%;
 	margin-left:30%;
-	padding:5px;
     border: 1px solid #d9d9d9;
-    font-size: 16px;
-    border-radius: 5px;
+    font-size: 17px;
 }
-#searchBox input:focus {
-	border-color: #f5f5f5;
+input.search_buttons:focus {
+	border-color:#4387fd;
 }
-div.buttons  {
+ul.buttons  {
 	text-align: center;
 	padding-left: 0;
 }
-div.buttons button{
+ul.buttons li{
     background-color: #f5f5f5;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
@@ -93,16 +92,17 @@ div.buttons button{
     margin: 17px 6px;
     padding: 0 12px;
     display: inline-block;
-    cursor: pointer;
 }
-div.buttons div:hover{
+ul.buttons li:hover{
 	background-color:#f8f8f8;
 	border: 1px solid #c6c6c6;
     box-shadow:0 1px 1px rgba(0,0,0,0.1);
     color:#333;
     cursor: default;
 } 
-/*Bottom Div*/
+
+
+
 div#bottom {
 	bottom: 0 !important;
 	position: absolute;
@@ -110,18 +110,15 @@ div#bottom {
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4; 
 }
-ul#left, 
-ul#right {
-	margin-top:0;
-	margin-bottom: 0;
-}
 ul#left {
 	float:left;
 	padding-left:20px;
+	margin-bottom: 0;
 }
 ul#right {
 	float:right;
 	padding-right:10px;
+	margin-bottom: 0px;
 }
 ul#left li,
 ul#right li{
