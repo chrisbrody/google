@@ -181,7 +181,8 @@ ul#right li a {
 	    padding-left: 0;
 	}
 	ul#right {
-	     padding-right: 0; 
+	    padding-right: 0; 
+	    padding-left: 0;
 	}
 	ul#left li a, ul#right li a {
 	    margin: 2px 5px 0;
