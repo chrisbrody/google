@@ -155,23 +155,23 @@ ul#right li a {
 	}
 @media screen and (max-width: 768px) {
 	* {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	ul#nav {
 		margin-top:0;
 		margin-right: 0;
 	}
 	ul#nav li {
-	    padding: 5px 20px 0 0;
+	    padding: 5px 13px 0 0;
 	    margin: 5px 0 0 0;
 	}
 	div#searchBox img {
 	    padding: 142px 0 7px 0;
 	}
 	#searchBox input {
-    	width: 450px;
+    	width: 400px;
     	height: 24px;
-    	font-size: 16px;
+    	font-size: 15px;
     }
     ul#left, 
 	ul#right {
@@ -185,8 +185,8 @@ ul#right li a {
 	    padding-left: 0;
 	}
 	ul#left li a, ul#right li a {
-	    margin: 2px 5px 0;
-	    font-size: 16px;
+	    margin: 2px 4px 0;
+	    font-size: 15px;
 	}
 	div.buttons button {
 		padding: 5px 12px;
