@@ -24,30 +24,30 @@ a.button:hover {
 
 /** SITE NAVIGATION **/
 div.navigation {
-	height: 75px;
+    height: 75px;
 }
 
 div.navigation ul {
-	float: right;
+    float: right;
     margin-right: 25px;
     margin-top: 0;
 }
 
 div.navigation  li {
-	display: inline-block;
+    display: inline-block;
     font-size: 13px;
-	margin: 5px 5px 0 0;
+    margin: 5px 5px 0 0;
     padding: 5px 10px 0 0;
     vertical-align: bottom;
 }
 
 div.navigation a {
-	color: #626065;
-	font-size: 14px;
+    color: #626065;
+    font-size: 14px;
 }
 
 div.navigation a:hover {
-	color: black;
+    color: black;
 }
 /** NAVIGATION ICONS **/
 .fa {
@@ -104,7 +104,7 @@ div.navigation a:hover {
 
 /** GOOGLE SEARCH **/
 .search {
-	text-align: center;
+    text-align: center;
 }
 
 .search button {
@@ -113,7 +113,6 @@ div.navigation a:hover {
     border-radius: 2px;
     color: gray;
     cursor: pointer;
-    display: inline-block;
     font-size: 14px;
     font-weight: bold;
     margin: 17px 6px;
@@ -121,26 +120,26 @@ div.navigation a:hover {
 }
 
 .search button:hover {
-	background-color:#f8f8f8;
-	border: 1px solid #c6c6c6;
+    background-color:#f8f8f8;
+    border: 1px solid #c6c6c6;
     color:#333;
 }
 
 /** FOOTER **/
 div.footer {
-	background-color: #f5f5f5;
-	border-top: 1px solid #e4e4e4;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e4e4e4;
     height: 50px;
     width: 100%;
     font-size: 10px;
 }
 
 div.footer ul.left {
-	float: left;
+    float: left;
 }
 
 div.footer ul.right{
-	float: right;
+    float: right;
     padding-right: 40px;
 }
 
