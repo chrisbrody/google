@@ -1,195 +1,153 @@
+/** SITE STYLES **/
 * {
-	font-size: 18px;
+    color: #000;
 }
+
 body {
-	background: none repeat scroll 0 0 #fff;
     color: #222;
     margin:0;
 }
-a {
-	color:#222;
-	text-decoration: none;
+
+a { 
+    color:#222;
+    text-decoration: none;
 }
+
 a:hover {
-	color: #222;
-	text-decoration: underline;
+    color: #222;
+    text-decoration: underline;
 }
+
 a.button:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
-ul#nav {
-	float:right;
-	margin-right: 25px;
+
+/** SITE NAVIGATION **/
+div.navigation {
+	height: 75px;
 }
-ul#nav li{
-	list-style: none;
+
+div.navigation ul {
+	float: right;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+div.navigation  li {
 	display: inline-block;
-	text-align: right;
-	padding: 5px 10px 0 0;
-	vertical-align: bottom;
+    font-size: 13px;
 	margin: 5px 5px 0 0;
-	font-size: 13px;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
 }
+
+div.navigation a {
+	color: #626065;
+	font-size: 14px;
+}
+
+div.navigation a:hover {
+	color: black;
+}
+/** NAVIGATION ICONS **/
 .fa {
-	font-size: 20px;
-	vertical-align: top;
-	opacity: 0.7;
-	cursor: default;
+    cursor: default;
+    font-size: 16px !important;
+    opacity: 0.7;
+    vertical-align: top;
 }
+
 .fa:hover {
-	opacity: 1.0;
+    cursor: pointer;
+    opacity: 1;
 }
-span#share {
-	background-color: #f2f2f2;
-	padding:7px 15px;
-	cursor: default;
-	position: relative;
-    top: -3px;
+/** NAVIGATION SHARE **/
+.share {
+    background-color: #f2f2f2;
+    cursor: default;
+    padding: 10px 15px;
+
 }
+
+.share:hover {
+    background-color: #E1E1E1;
+    cursor: pointer;
 }
-span#share:hover {
-	background-color: #E1E1E1;
-}
-img.profile_img {
-	border-radius: 25px;
-	height: 32px;
-    width: 32px;
+
+.profile {
+    border-radius: 25px;
+    height: 32px;
     position: relative;
-    top: 5px;
+    top: 10px;
+    width: 32px;
 }
-div#searchBox {
-	position: absolute;
-	margin-top:75px;
-	width:100%;
+
+/** CTA GOOGLE LOGO **/
+.cta {
+    height: 364px;
+    margin-top: 150px;
 }
-div#searchBox img {
-	padding:142px 0 24px 0;
-	display: block;
-	margin:0 auto;
+
+.cta .logo {
+    text-align: center;
 }
-#searchBox input {
-	width: 600px;
+
+.cta input {
+    border: 1px solid #d9d9d9;
+    display: block;
+    font-size: 16px;
+    height: 30px;
     margin: 0 auto;
     padding: 5px;
-    border: 1px solid #d9d9d9;
-    font-size: 16px;
-    border-radius: 5px;
-    display: block;
+    width: 45%;
 }
-#searchBox input:focus {
-	border-color: #f5f5f5;
-}
-div.buttons  {
+
+/** GOOGLE SEARCH **/
+.search {
 	text-align: center;
-	padding-left: 0;
 }
-div.buttons button{
+
+.search button {
     background-color: #f5f5f5;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
-    color: #666;
+    color: gray;
+    cursor: pointer;
+    display: inline-block;
     font-size: 14px;
     font-weight: bold;
-    line-height: 27px;
     margin: 17px 6px;
-    padding: 0 12px;
-    display: inline-block;
-    cursor: pointer;
+    padding: 10px 15px;
 }
-div.buttons div:hover{
+
+.search button:hover {
 	background-color:#f8f8f8;
 	border: 1px solid #c6c6c6;
-    box-shadow:0 1px 1px rgba(0,0,0,0.1);
     color:#333;
-    cursor: default;
-} 
-/*Bottom Div*/
-div#bottom {
-	bottom: 0 !important;
-	position: absolute;
-	width:100%;
-	background-color: #f2f2f2;
-	border-top: 1px solid #e4e4e4; 
-}
-ul#left, 
-ul#right {
-	margin: 10px 0;
-}
-ul#left {
-	float:left;
-	padding-left:20px;
-}
-ul#right {
-	float:right;
-	padding-right:10px;
-}
-ul#left li,
-ul#right li{
-	list-style: none;
-	display: inline;
-	line-height: 40px;
-}
-ul#right li a:first-child {
-	padding-right:8px;
-}
-ul#left li:nth-child(2),
-ul#left li:nth-child(3) {
-	margin-left:7px;
-}
-ul#left li a,
-ul#right li a {
-	color: #666;
-    margin: 2px 10px 0;
-    letter-spacing: 0.1px;
-    font-size: 18px;
 }
 
+/** FOOTER **/
+div.footer {
+	background-color: #f5f5f5;
+	border-top: 1px solid #e4e4e4;
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+}
 
+div.footer ul.left {
+	float: left;
+}
 
-@media screen and (max-width: 1000px) {
-	#searchBox input {
-    	width: 650px;
-    }
-	ul#left, ul#right {
-	    margin: 5px 0;
-	}
-@media screen and (max-width: 768px) {
-	* {
-		font-size: 15px;
-	}
-	ul#nav {
-		margin-top:0;
-		margin-right: 0;
-	}
-	ul#nav li {
-	    padding: 5px 13px 0 0;
-	    margin: 5px 0 0 0;
-	}
-	div#searchBox img {
-	    padding: 142px 0 7px 0;
-	}
-	#searchBox input {
-    	width: 400px;
-    	height: 24px;
-    	font-size: 15px;
-    }
-    ul#left, 
-	ul#right {
-		margin: 5px;
-	}
-    ul#left {
-	    padding-left: 0;
-	}
-	ul#right {
-	    padding-right: 0; 
-	    padding-left: 0;
-	}
-	ul#left li a, ul#right li a {
-	    margin: 2px 4px 0;
-	    font-size: 15px;
-	}
-	div.buttons button {
-		padding: 5px 12px;
-	}
+div.footer ul.right{
+	float: right;
+    padding-right: 40px;
+}
 
+div.footer li {
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 5px 0 0;
+    padding: 5px 10px 0 0;
+    vertical-align: bottom;
 }
